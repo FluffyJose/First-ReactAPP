@@ -1,0 +1,19 @@
+.nav {
+  grid-area: n;
+  background-color: green;
+}
+.item {
+  color: antiquewhite;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: goldenrod;
+  font-weight: bold;
+}
+a:active {
+  color: gold;  
+}
