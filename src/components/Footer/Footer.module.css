@@ -1,4 +1,4 @@
 .footer {
   grid-area: f;
-  background-color: rgb(0, 255, 234);
+  border-top: solid grey;
 }
