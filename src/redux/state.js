@@ -18,6 +18,11 @@ let state = {
             {id: 4, name: 'Kolya'},
             {id: 5, name: 'Tanya'}
         ]
+    },
+    sidebar: {
+        frendsAvatars: [
+            {avatar: '', }
+        ]
     }
 }
 

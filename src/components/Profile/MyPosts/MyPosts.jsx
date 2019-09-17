@@ -4,14 +4,20 @@ import Post from './Post/Post';
 
 const MyPosts = (props) => {
   let postsElements = props.posts.map(post => <Post message={post.message} likesCount={post.likesCount}/>)
+  const newPostElement = React.createRef();
+
+  const addPost = () => {
+    return alert(newPostElement.current.value)
+  }
+
   return (
     <div>
       <h3>My posts</h3>
       <div>
-        <input/>
+        <input ref={newPostElement}/>
       </div>
       <div>
-        <button>Add post</button>
+        <button onClick={ addPost }>Add post</button>
       </div>
       <div className={s.posts}>
         {postsElements}

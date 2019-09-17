@@ -17,11 +17,26 @@ const NavBar = () => {
         </div>
         <div className={s.item}>
           <NavLink to='/music' activeClassName={s.active}>Music</NavLink>
-        </div>        
+        </div>
         <div className={s.item}>
           <NavLink to='/settings' activeClassName={s.active}>Settings</NavLink>
-        </div>        
-      </nav>
+        </div>
+        <section>
+          <h3>Friends</h3>
+          <div>
+            <img src="https://sophosnews.files.wordpress.com/2014/04/anonymous-250.jpg?w=250" alt="Vasya"/>
+            Vasya
+          </div>
+          <div>
+            <img src="https://sophosnews.files.wordpress.com/2014/04/anonymous-250.jpg?w=250" alt="Petya"/>
+            Petya
+          </div>
+          <div>
+            <img src="https://sophosnews.files.wordpress.com/2014/04/anonymous-250.jpg?w=250" alt="Misha"/>
+            Misha
+          </div>
+        </section>
+    </nav>
   )
 }
 
